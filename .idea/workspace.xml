@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b95a6a74-759c-4ac4-a5c7-f7710fd26859" name="Default Changelist" comment="" />
+    <list default="true" id="b95a6a74-759c-4ac4-a5c7-f7710fd26859" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +16,17 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YMLCz95QIEC6kKI1461kCB1pq7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,7 +50,8 @@
       <workItem from="1582747399575" duration="2924000" />
       <workItem from="1583000235063" duration="2693000" />
       <workItem from="1583013001354" duration="1407000" />
-      <workItem from="1583088865611" duration="3463000" />
+      <workItem from="1583088865611" duration="4266000" />
+      <workItem from="1583336517441" duration="10231000" />
     </task>
     <servers />
   </component>
@@ -51,15 +63,16 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1286" y="553" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583096285831" />
-    <state x="93" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1583088864437">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="93" y="276" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583088864437" />
-    <state x="131" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583013047989" />
-    <state x="131" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583000296188" />
-    <state x="833" y="220" key="run.anything.popup" timestamp="1583096372868">
+    <state x="566" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1583336538434">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="93" y="276" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583088864437" />
+    <state x="566" y="327" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583336538434" />
+    <state x="131" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583000296188" />
+    <state x="833" y="220" key="run.anything.popup" timestamp="1583354718881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="833" y="220" key="run.anything.popup/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583354718881" />
     <state x="833" y="220" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583096372868" />
     <state x="602" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1583096321668">
       <screen x="0" y="27" width="1920" height="1053" />

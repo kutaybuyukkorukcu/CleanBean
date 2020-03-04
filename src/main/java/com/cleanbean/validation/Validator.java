@@ -1,5 +1,5 @@
 package com.cleanbean.validation;
 
 public interface Validator {
-        boolean isBeanValid(Object object);
+        boolean isValid(Object object);
 }
