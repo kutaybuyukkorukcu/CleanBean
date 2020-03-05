@@ -1,16 +1,8 @@
 package com.cleanbean.validation;
 
-import com.cleanbean.validation.Validator;
-
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
-import java.lang.reflect.AnnotatedElement;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import com.cleanbean.max.Max;
-import com.cleanbean.min.Min;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 
 
 public class ValidatorImpl implements Validator {
@@ -19,15 +11,16 @@ public class ValidatorImpl implements Validator {
 
         Class<?> klass = object.getClass();
         Field[] fields = klass.getDeclaredFields();
+        ArrayList<Boolean> booleanList = new ArrayList<Boolean>();
+        AnnotationValidatorImpl annotationValidator = new AnnotationValidatorImpl(object);
 
-//        klass.isAnnotationPresent((Class<? extends Annotation>) /** Annotation class**/);
-//        AnnotatedElement annotatedElement = ;
-
-        for (Field field:
-             fields) {
+        for (Field field: fields) {
             field.setAccessible(true);
-            AnnotationChecker.isAnnotationPresent(field, Max.class);
+
+            booleanList.add(annotationValidator.isAnnotationValid(field));
         }
+
+        return anyFalse(booleanList);
     }
 
     private static <T> T checkNotNull(T object, String name) {
@@ -52,12 +45,16 @@ public class ValidatorImpl implements Validator {
         return null;
     }
 
-    private boolean isFalse(ArrayList<Boolean> booleans) {
+    private boolean anyFalse(ArrayList<Boolean> booleanList) {
 
-        boolean flag = true;
+        boolean anyFalse = false;
 
-        // Will implement Iterator here!
+        Iterator iterator = booleanList.iterator();
 
-        return flag;
+        while (iterator.hasNext()) {
+            return Boolean.compare(true, (boolean) iterator.next()) == 1 ? true : false;
+        }
+
+        return anyFalse;
     }
 }
