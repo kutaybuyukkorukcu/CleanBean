@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b95a6a74-759c-4ac4-a5c7-f7710fd26859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/max/MaxAnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/max/MaxAnnotationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/min/MinAnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/min/MinAnnotationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cleanbean/max/MaxValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleanbean/max/MaxAnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cleanbean/min/MinValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleanbean/min/MinAnnotationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="package-info" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +63,7 @@
       <workItem from="1583833507576" duration="782000" />
       <workItem from="1584537853806" duration="7037000" />
       <workItem from="1584579547667" duration="603000" />
-      <workItem from="1584631525212" duration="7606000" />
+      <workItem from="1584631525212" duration="17766000" />
     </task>
     <servers />
   </component>
@@ -84,10 +80,10 @@
     </state>
     <state x="358" y="182" width="848" height="529" key="#Project_Structure/0.27.1366.741@0.27.1366.741" timestamp="1583833689397" />
     <state x="1035" y="214" width="848" height="677" key="#Project_Structure/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584631970145" />
-    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1584632486646">
+    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1584653242370">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584632486646" />
+    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584653242370" />
     <state x="1286" y="553" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583096285831">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -106,10 +102,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1431" y="203" width="804" height="758" key="dock-window-1/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584639479492" />
-    <state x="833" y="220" key="run.anything.popup" timestamp="1583354718881">
+    <state x="833" y="220" width="672" height="677" key="run.anything.popup" timestamp="1584648239336">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="833" y="220" key="run.anything.popup/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583354718881" />
+    <state x="833" y="220" width="672" height="677" key="run.anything.popup/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584648239336" />
     <state x="833" y="220" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583096372868" />
     <state x="602" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1584633256181">
       <screen x="0" y="27" width="1920" height="1053" />

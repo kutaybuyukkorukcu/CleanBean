@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class MinValidatorTest {
+public class MinAnnotationTest {
 
     private Validator validator;
 
@@ -59,27 +59,27 @@ public class MinValidatorTest {
     @Test
     void valid_max_long() throws IllegalAccessException {
         MinBean minBean = new MinBean();
-        minBean.set_long(3);
+        minBean.set_long(3L);
         assertTrue(validator.isValid(minBean));
-        minBean.set_long(7);
+        minBean.set_long(7L);
         assertFalse(validator.isValid(minBean));
     }
 
     @Test
     void valid_max_float() throws IllegalAccessException {
         MinBean minBean = new MinBean();
-        minBean.set_float(3);
+        minBean.set_float(3.2f);
         assertTrue(validator.isValid(minBean));
-        minBean.set_float(7);
+        minBean.set_float(7.2f);
         assertFalse(validator.isValid(minBean));
     }
 
     @Test
     void valid_max_double() throws IllegalAccessException {
         MinBean minBean = new MinBean();
-        minBean.set_double(3);
+        minBean.set_double(3.2d);
         assertTrue(validator.isValid(minBean));
-        minBean.set_double(7);
+        minBean.set_double(7.2d);
         assertFalse(validator.isValid(minBean));
     }
 }

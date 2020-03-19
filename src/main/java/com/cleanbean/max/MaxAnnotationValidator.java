@@ -31,7 +31,7 @@ public class MaxAnnotationValidator implements AnnotationValidator {
                 isValid = ((String) handler).length() <= max.max();
             }
 
-        } catch (NullPointerException | IllegalAccessException e) {
+        } catch (IllegalAccessException e) {
             isValid = false;
         }
 
