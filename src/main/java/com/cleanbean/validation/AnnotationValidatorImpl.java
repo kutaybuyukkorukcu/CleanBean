@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AnnotationValidatorImpl {
+public class AnnotationValidatorImpl implements AnnotationValidator {
 
     private Map<Class, AnnotationValidator> annotationMap = new HashMap<>();
 

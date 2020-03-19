@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b95a6a74-759c-4ac4-a5c7-f7710fd26859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/max/MaxAnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/max/MaxAnnotationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/min/MinAnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/min/MinAnnotationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -55,7 +62,12 @@
       <workItem from="1583088865611" duration="4266000" />
       <workItem from="1583336517441" duration="10423000" />
       <workItem from="1583399303920" duration="605000" />
-      <workItem from="1583420792524" duration="6361000" />
+      <workItem from="1583420792524" duration="6464000" />
+      <workItem from="1583783966958" duration="914000" />
+      <workItem from="1583833507576" duration="782000" />
+      <workItem from="1584537853806" duration="7037000" />
+      <workItem from="1584579547667" duration="603000" />
+      <workItem from="1584631525212" duration="7606000" />
     </task>
     <servers />
   </component>
@@ -67,36 +79,42 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1035" y="214" width="800" height="677" key="#Auto_Import/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583424132238" />
-    <state x="1035" y="214" width="848" height="677" key="#Project_Structure" timestamp="1583423532932">
+    <state x="1035" y="214" width="848" height="529" key="#Project_Structure" timestamp="1584631970145">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1035" y="214" width="848" height="677" key="#Project_Structure/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583423532932" />
-    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1583422378074">
+    <state x="358" y="182" width="848" height="529" key="#Project_Structure/0.27.1366.741@0.27.1366.741" timestamp="1583833689397" />
+    <state x="1035" y="214" width="848" height="677" key="#Project_Structure/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584631970145" />
+    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1584632486646">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583422378074" />
+    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584632486646" />
     <state x="1286" y="553" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583096285831">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1286" y="553" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583096285831" />
-    <state x="611" y="27" width="678" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583426521119">
+    <state x="611" y="27" width="678" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584640769245">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="611" y="27" width="678" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583426521119" />
-    <state x="597" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1583420856385">
+    <state x="611" y="27" width="678" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584640769245" />
+    <state x="597" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1584631677570">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="93" y="276" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583399303892" />
-    <state x="597" y="356" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583420856385" />
-    <state x="131" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583000296188" />
+    <state x="93" y="276" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583833513365" />
+    <state x="597" y="356" key="com.intellij.ide.util.TipDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584631677570" />
+    <state x="131" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584579547485" />
+    <state x="1431" y="203" width="804" height="758" key="dock-window-1" timestamp="1584639479492">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1431" y="203" width="804" height="758" key="dock-window-1/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584639479492" />
     <state x="833" y="220" key="run.anything.popup" timestamp="1583354718881">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="833" y="220" key="run.anything.popup/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1583354718881" />
     <state x="833" y="220" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583096372868" />
-    <state x="602" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1583096321668">
+    <state x="602" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1584633256181">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="602" y="401" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1584633256181" />
     <state x="602" y="401" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583096321668" />
   </component>
 </project>
