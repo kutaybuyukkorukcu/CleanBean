@@ -14,6 +14,7 @@ public class RegexAnnotationValidator implements AnnotationValidator {
         this.object = object;
     }
 
+    @Override
     public boolean isAnnotationValid(Field field) {
 
         field.setAccessible(true);

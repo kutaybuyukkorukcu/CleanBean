@@ -1,9 +1,13 @@
 package com.cleanbean.validation;
 
-import com.cleanbean.max.Max;
-import com.cleanbean.max.MaxAnnotationValidator;
-import com.cleanbean.min.Min;
-import com.cleanbean.min.MinAnnotationValidator;
+import com.cleanbean.max.*;
+import com.cleanbean.min.*;
+import com.cleanbean.mail.*;
+import com.cleanbean.regex.*;
+import com.cleanbean.size.*;
+
+
+
 import com.cleanbean.validation.AnnotationValidator;
 
 import java.lang.annotation.Annotation;
@@ -22,7 +26,9 @@ public class AnnotationValidatorImpl implements AnnotationValidator {
     private void init(Object object) {
         annotationMap.put(Max.class, new MaxAnnotationValidator(object));
         annotationMap.put(Min.class, new MinAnnotationValidator(object));
-
+        annotationMap.put(Mail.class, new MailAnnotationValidator(object));
+        annotationMap.put(Regex.class, new RegexAnnotationValidator(object));
+        annotationMap.put(Size.class, new SizeAnnotationValidator(object));
     }
 
     public boolean isAnnotationValid(Field field) {

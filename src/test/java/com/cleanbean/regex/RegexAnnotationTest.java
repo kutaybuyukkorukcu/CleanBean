@@ -15,7 +15,7 @@ public class RegexAnnotationTest {
 
     @BeforeEach
     void before() {
-        validator = new ValidatorImpl();
+        validator = ValidatorImpl.getInstance();
     }
 
     @Test

@@ -7,6 +7,20 @@ import java.util.Iterator;
 
 public class ValidatorImpl implements Validator {
 
+    private static ValidatorImpl INSTANCE = null;
+
+    private ValidatorImpl() {
+
+    }
+
+    public static ValidatorImpl getInstance() {
+        if (INSTANCE == null) {
+            INSTANCE = new ValidatorImpl();
+        }
+
+        return INSTANCE;
+    }
+
     public boolean isValid(Object object) {
 
         Class<?> klass = object.getClass();

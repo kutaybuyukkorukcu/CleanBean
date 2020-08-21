@@ -17,7 +17,7 @@ public class MaxAnnotationTest {
 
     @BeforeEach
     void before() {
-        validator =  new ValidatorImpl();
+        validator = ValidatorImpl.getInstance();
     }
 
     @Test

@@ -15,7 +15,7 @@ public class MailAnnotationTest {
 
     @BeforeEach
     void before() {
-        validator = new ValidatorImpl();
+        validator = ValidatorImpl.getInstance();
     }
 
     @Test
