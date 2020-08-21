@@ -22,6 +22,7 @@ public class AnnotationValidatorImpl implements AnnotationValidator {
     private void init(Object object) {
         annotationMap.put(Max.class, new MaxAnnotationValidator(object));
         annotationMap.put(Min.class, new MinAnnotationValidator(object));
+
     }
 
     public boolean isAnnotationValid(Field field) {
