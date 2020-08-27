@@ -43,30 +43,18 @@ public class ValidatorImpl implements Validator {
         return object;
     }
 
-    private static Object getDefaultValue(Class<?> type) {
-
-        if (type == boolean.class) return false;
-        if (type == int.class) return 0;
-        if (!type.isPrimitive()) return null;
-
-        if (type == long.class) return 0L;
-        if (type == short.class) return (short) 0;
-        if (type == byte.class) return (byte) 0;
-        if (type == char.class) return '\0';
-        if (type == float.class) return 0.0F;
-        if (type == double.class) return 0.0D;
-
-        return null;
-    }
-
     private boolean anyFalse(ArrayList<Boolean> booleanList) {
 
-        boolean anyFalse = false;
+        boolean anyFalse = true;
 
         Iterator iterator = booleanList.iterator();
 
         while (iterator.hasNext()) {
-            return Boolean.compare(true, (boolean) iterator.next()) == 1 ? true : false;
+
+            if (!(boolean) iterator.next()) {
+                anyFalse = false;
+                break;
+            }
         }
 
         return anyFalse;

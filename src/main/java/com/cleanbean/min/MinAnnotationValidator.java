@@ -27,9 +27,9 @@ public class MinAnnotationValidator implements AnnotationValidator {
             Min min = field.getAnnotation(Min.class);
 
             if (handler instanceof Number) {
-                isValid = ((Number) handler).intValue() <= min.min();
+                isValid = ((Number) handler).intValue() >= min.min();
             } else if (handler instanceof String) {
-                isValid = ((String) handler).length() <= min.min();
+                isValid = ((String) handler).length() >= min.min();
             }
 
         } catch (NullPointerException | IllegalAccessException e) {

@@ -33,7 +33,7 @@ public class AnnotationValidatorImpl implements AnnotationValidator {
 
     public boolean isAnnotationValid(Field field) {
         boolean isValid = false;
-        for (Annotation annotation : field.getDeclaredAnnotations()) {
+        for (Annotation annotation : field.getAnnotations()) {
             if (AnnotationChecker.isAnnotationPresent(field, annotation.annotationType())) {
                 if(annotationMap.get(annotation.annotationType()).isAnnotationValid(field)) {
                     isValid = true;
