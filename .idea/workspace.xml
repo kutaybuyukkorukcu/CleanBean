@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b95a6a74-759c-4ac4-a5c7-f7710fd26859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/min/MinAnnotationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/min/MinAnnotationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/AnnotationValidatorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cleanbean/min/MinAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleanbean/min/MinAnnotationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,27 +65,32 @@
       <recent name="com.cleanbean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cleanbean.Main" />
-      <module name="CleanBean" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cleanbean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SizeAnnotationTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxAnnotationTest.valid_max_int" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CleanBean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleanbean.max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cleanbean.max" />
+      <option name="MAIN_CLASS_NAME" value="com.cleanbean.max.MaxAnnotationTest" />
+      <option name="METHOD_NAME" value="valid_max_int" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,10 +110,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinAnnotationTest.valid_min_int" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CleanBean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleanbean.min.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cleanbean.min" />
+      <option name="MAIN_CLASS_NAME" value="com.cleanbean.min.MinAnnotationTest" />
+      <option name="METHOD_NAME" value="valid_min_int" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexAnnotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CleanBean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleanbean.regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cleanbean.regex" />
+      <option name="MAIN_CLASS_NAME" value="com.cleanbean.regex.RegexAnnotationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SizeAnnotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CleanBean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleanbean.size.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cleanbean.size" />
+      <option name="MAIN_CLASS_NAME" value="com.cleanbean.size.SizeAnnotationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SizeAnnotationTest" />
+        <item itemvalue="JUnit.RegexAnnotationTest" />
         <item itemvalue="JUnit.MinAnnotationTest" />
+        <item itemvalue="JUnit.MinAnnotationTest.valid_min_int" />
+        <item itemvalue="JUnit.MaxAnnotationTest.valid_max_int" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +191,8 @@
       <workItem from="1584631525212" duration="17766000" />
       <workItem from="1597946328063" duration="7845000" />
       <workItem from="1598079708463" duration="870000" />
-      <workItem from="1598522233545" duration="12462000" />
+      <workItem from="1598522233545" duration="13096000" />
+      <workItem from="1598598285185" duration="1401000" />
     </task>
     <servers />
   </component>
@@ -167,38 +221,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="482" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1598542813631" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1598544544215">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1598599663563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544215" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1598544544215">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599663563" />
+    <state width="1877" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598544635886" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1598599663563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544215" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1598544544215">
+    <state width="1877" height="269" key="GridCell.Tab.0.center/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599663563" />
+    <state width="1877" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598544635886" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1598599663563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544215" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1598544544215">
+    <state width="1877" height="269" key="GridCell.Tab.0.left/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599663563" />
+    <state width="1877" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598544635886" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1598599663563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544215" />
-    <state width="1877" height="267" key="GridCell.Tab.1.bottom" timestamp="1598544544489">
+    <state width="1877" height="269" key="GridCell.Tab.0.right/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599663563" />
+    <state width="1877" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598544635886" />
+    <state width="1877" height="269" key="GridCell.Tab.1.bottom" timestamp="1598599664844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544489" />
-    <state width="1877" height="267" key="GridCell.Tab.1.center" timestamp="1598544544489">
+    <state width="1877" height="269" key="GridCell.Tab.1.bottom/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599664844" />
+    <state width="1877" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598544628259" />
+    <state width="1877" height="269" key="GridCell.Tab.1.center" timestamp="1598599664844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544489" />
-    <state width="1877" height="267" key="GridCell.Tab.1.left" timestamp="1598544544489">
+    <state width="1877" height="269" key="GridCell.Tab.1.center/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599664844" />
+    <state width="1877" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598544628259" />
+    <state width="1877" height="269" key="GridCell.Tab.1.left" timestamp="1598599664844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544489" />
-    <state width="1877" height="267" key="GridCell.Tab.1.right" timestamp="1598544544489">
+    <state width="1877" height="269" key="GridCell.Tab.1.left/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599664844" />
+    <state width="1877" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598544628259" />
+    <state width="1877" height="269" key="GridCell.Tab.1.right" timestamp="1598599664844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598544544489" />
+    <state width="1877" height="269" key="GridCell.Tab.1.right/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599664844" />
+    <state width="1877" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598544628259" />
     <state x="58" y="101" key="SettingsEditor" timestamp="1598525335803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,13 +271,15 @@
     </state>
     <state x="297" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1597949900901" />
     <state x="297" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598542694995" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1598542750322">
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1598599081475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598599081475" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1598542750322" />
-    <state x="186" y="256" width="587" height="534" key="find.popup" timestamp="1598539112006">
+    <state x="186" y="256" width="587" height="534" key="find.popup" timestamp="1598598803176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="186" y="256" width="587" height="534" key="find.popup/-1366.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598598803176" />
     <state x="186" y="256" width="587" height="534" key="find.popup/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1597955952679" />
     <state x="186" y="256" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598539112006" />
   </component>
@@ -231,9 +295,14 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cleanbean/validation/ValidatorImpl.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/cleanbean/min/MinAnnotationTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cleanbean/max/MaxAnnotationTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

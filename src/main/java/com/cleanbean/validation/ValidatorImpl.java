@@ -39,7 +39,10 @@ public class ValidatorImpl implements Validator {
 
     private static <T> T checkNotNull(T object, String name) {
 
-        if (object == null) throw new NullPointerException(name);
+        if (object == null) {
+            throw new NullPointerException(name);
+        }
+
         return object;
     }
 
